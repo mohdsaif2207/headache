@@ -1,0 +1,42 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}.center{
+    padding: 0 100px;
+    
+  }
+  .center li{
+    padding: 0 10px;
+  }
+  .center2{
+    background-color:#f1d3b2;
+    padding: 20px 680px;
+    height:60px;
+  }
+  footer{
+    background-color:#fffdd0;
+  }
+.slider{
+   padding:20px 100px;
+}
+.admin-img{
+width:100px;
+object-fit: contain;
+}
+.card-img-top{
+  width: 100%;
+  height:200px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .center2{
+    background-color:#008000;
+    padding: 10px 130px;
+    height:60px;
+}
+
+
+}
